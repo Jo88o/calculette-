@@ -1,0 +1,57 @@
+/* creation de la div principale */
+.div1{
+    background-image: url(../image/838_gettyimages-1134722319.jpg);
+    height: 800px;
+    display: flex;
+}
+
+/* creation de la div secondaire */
+.div2{
+    height: 600px;
+    width: 500px;
+    background-color: rgb(83, 206, 130);
+    margin: auto;
+}
+
+/* creation des 5 div de la calculette */
+
+.div2-1{
+    margin: 3px;
+    background-color: rgb(116, 226, 165);
+    height: 117px;
+    border-bottom: white solid 2px;
+}
+
+/* creation de la divSecondaire 1*/
+
+.input-div2-1{
+    height: 70px;
+    width: 400px;
+    margin-left: 9%;
+    margin-top: 3%;
+    border: solid black 3px;
+}
+
+/* creation de la divSecondaire 2*/
+
+.button-div2-2{
+    height: 70%;
+    width: 15%;
+    justify-content: space-between;
+    margin-top: 5%;
+    border-radius: 40%;
+    border: black solid 3px;
+    font-size: 40px;
+}
+
+/* creation de la div secondaire 3*/
+
+.button-div2-3{
+    height: 70%;
+    width: 15%;
+    justify-content: space-between;
+    margin-top: 5%;
+    border-radius: 40%;
+    border: black solid 3px;
+    font-size: 40px;
+}
