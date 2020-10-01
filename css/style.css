@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 /* creation de la div principale */
 .div1{
     background-image: url(../image/838_gettyimages-1134722319.jpg);
@@ -30,11 +33,13 @@
     margin-left: 9%;
     margin-top: 3%;
     border: solid black 3px;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
 }
 
 /* creation de la divSecondaire 2*/
 
-.button-div2-2{
+.button-div2-2-3-4-5{
     height: 70%;
     width: 15%;
     justify-content: space-between;
@@ -42,16 +47,6 @@
     border-radius: 40%;
     border: black solid 3px;
     font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
 }
 
-/* creation de la div secondaire 3*/
-
-.button-div2-3{
-    height: 70%;
-    width: 15%;
-    justify-content: space-between;
-    margin-top: 5%;
-    border-radius: 40%;
-    border: black solid 3px;
-    font-size: 40px;
-}

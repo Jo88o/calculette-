@@ -25,8 +25,6 @@ divSecondaire.appendChild(divSecondaire3);
 divSecondaire.appendChild(divSecondaire4); 
 divSecondaire.appendChild(divSecondaire5); 
 
-console.log(divSecondaire);
-
 divSecondaire1.classList = 'div2-1'
 divSecondaire2.classList = 'div2-1'
 divSecondaire3.classList = 'div2-1'
@@ -35,6 +33,7 @@ divSecondaire5.classList = 'div2-1'
 
 // creation de la div2-1 // 
 let divSecondaire1Input = document.createElement('input')
+//let divSecondaire1Input2 = document.
 divSecondaire1.appendChild(divSecondaire1Input)
 
 divSecondaire1Input.classList = 'input-div2-1'
@@ -55,10 +54,10 @@ divSecondaireBtn1_3.innerText = '3'
 divSecondaireBtn1_4.innerText = '+'
 
 divSecondaire2.style ='display: flex; justify-content: space-around; margin: auto'
-divSecondaireBtn1_1.classList = 'button-div2-2'
-divSecondaireBtn1_2.classList = 'button-div2-2'
-divSecondaireBtn1_3.classList = 'button-div2-2'
-divSecondaireBtn1_4.classList = 'button-div2-2'
+divSecondaireBtn1_1.classList = 'button-div2-2-3-4-5'
+divSecondaireBtn1_2.classList = 'button-div2-2-3-4-5'
+divSecondaireBtn1_3.classList = 'button-div2-2-3-4-5'
+divSecondaireBtn1_4.classList = 'button-div2-2-3-4-5 plus'
 
 divSecondaireBtn1_4.style = 'background-color: lightblue'
 
@@ -78,10 +77,10 @@ divSecondaireBtn2_3.innerText = '6'
 divSecondaireBtn2_4.innerText = '-'
 
 divSecondaire3.style ='display: flex; justify-content: space-around; margin: auto'
-divSecondaireBtn2_1.classList = 'button-div2-3'
-divSecondaireBtn2_2.classList = 'button-div2-3'
-divSecondaireBtn2_3.classList = 'button-div2-3'
-divSecondaireBtn2_4.classList = 'button-div2-3'
+divSecondaireBtn2_1.classList = 'button-div2-2-3-4-5'
+divSecondaireBtn2_2.classList = 'button-div2-2-3-4-5'
+divSecondaireBtn2_3.classList = 'button-div2-2-3-4-5'
+divSecondaireBtn2_4.classList = 'button-div2-2-3-4-5 min'
 
 divSecondaireBtn2_4.style = 'background-color: lightblue'
 
@@ -101,10 +100,10 @@ divSecondaireBtn3_3.innerText = '9'
 divSecondaireBtn3_4.innerText = '*'
 
 divSecondaire4.style ='display: flex; justify-content: space-around; margin: auto'
-divSecondaireBtn3_1.classList = 'button-div2-3'
-divSecondaireBtn3_2.classList = 'button-div2-3'
-divSecondaireBtn3_3.classList = 'button-div2-3'
-divSecondaireBtn3_4.classList = 'button-div2-3'
+divSecondaireBtn3_1.classList = 'button-div2-2-3-4-5'
+divSecondaireBtn3_2.classList = 'button-div2-2-3-4-5'
+divSecondaireBtn3_3.classList = 'button-div2-2-3-4-5'
+divSecondaireBtn3_4.classList = 'button-div2-2-3-4-5 multi'
 
 divSecondaireBtn3_4.style = 'background-color: lightblue'
 
@@ -125,14 +124,15 @@ divSecondaireBtn4_3.innerText = '='
 divSecondaireBtn4_4.innerText = '/'
 
 divSecondaire5.style ='display: flex; justify-content: space-around; margin: auto'
-divSecondaireBtn4_1.classList = 'button-div2-3'
-divSecondaireBtn4_2.classList = 'button-div2-3'
-divSecondaireBtn4_3.classList = 'button-div2-3'
-divSecondaireBtn4_4.classList = 'button-div2-3'
+divSecondaireBtn4_1.classList = 'button-div2-2-3-4-5 supp'
+divSecondaireBtn4_2.classList = 'button-div2-2-3-4-5 '
+divSecondaireBtn4_3.classList = 'button-div2-2-3-4-5 egal'
+divSecondaireBtn4_4.classList = 'button-div2-2-3-4-5 divi'
 
 divSecondaireBtn4_1.style = 'background-color: tomato'
 divSecondaireBtn4_3.style = 'background-color: yellow'
 divSecondaireBtn4_4.style = 'background-color: lightblue'
+
 
 
 
